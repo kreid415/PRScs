@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prscs"
+description = "PRS-CS is a Python based command line tool that infers posterior SNP effect sizes under continuous shrinkage (CS) priors using GWAS summary statistics and an external LD reference panel."
+readme = "README.md"
+version = "1.0.0"
+dependencies = ["scipy", "h5py"]
+
+[project.scripts]
+prscs = "prscs.PRScs:main"

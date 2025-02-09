@@ -15,6 +15,8 @@ using GWAS summary statistics and an external LD reference panel.
 
 ## Version History
 
+**Feb 8, 2025**: Format for python packaging
+
 **May 14, 2024**: Replaced some scipy functions with numpy due to changes in the latest scipy version.
 
 **Apr 9, 2024**: Allowed for the output of all posterior samples, which can be used to estimate the uncertainty of individualized PRS.
@@ -58,6 +60,14 @@ using GWAS summary statistics and an external LD reference panel.
     `git clone https://github.com/getian107/PRScs.git`
 
     Alternatively, download the source files from the github website (`https://github.com/getian107/PRScs`)
+
+- install:
+
+    `pip install .`
+
+    or `pip install -e .` for editable mode
+
+    alternatively, `pip install git+https://github.com/getian107/PRScs.git`
 
 - Download the LD reference panels and extract files:
 
